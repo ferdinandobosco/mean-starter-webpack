@@ -1,0 +1,44 @@
+@import '../../css/colors';
+
+#login-container{
+  background-color: $primary;
+  height:100%;
+
+  .login-card{
+    border-radius: 5px;
+    transition: 0.3s;
+    background-color: $white;
+    width: 20%;
+    text-align: center;
+    box-shadow: 0px 16px 28px 0 rgba(0,0,0,0.22), 0 25px 55px 0 rgba(0,0,0,0.21);
+
+    .circle{
+      margin-top: 20px;
+      margin-left: 30%;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: $primary;
+      box-shadow: 3px 3px 5px #cccccc;
+      padding: 10px;
+    }
+
+    .square {
+      margin-top: 20px;
+      margin-left: 30%;
+      width: 100px;
+      height: 100px;
+      padding: 5px;
+    }
+
+    .card-content{
+      padding: 20px;
+    }
+
+    .btn1 {
+      background-color: $accent;
+      color: $white;
+    }
+
+  }
+}

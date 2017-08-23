@@ -1,0 +1,14 @@
+<my-nav></my-nav>
+<div layout="row" layout-align="center center">
+    <div layout="column" flex="50">
+        <h1>Welcome {{homeCtrl.user.username}}</h1>
+        <div class="home-background">
+            <img src="/images/home.jpg">
+        </div>
+    </div>
+</div>
+
+<md-button class="md-fab md-fab-bottom-right position-fixed" aria-label="New">
+    <md-tooltip md-direction="left">New</md-tooltip>
+    <md-icon ng-bind="'add'"></md-icon>
+</md-button>
