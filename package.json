@@ -1,7 +1,10 @@
 {
   "name": "mean-webpack",
+  "description": "MEAN Starter kit with AngularJS and Webpack3 module bundler",
   "version": "0.0.1",
   "main": "server.js",
+  "author": "Ferdinando Bosco <ferdinando.bosco@gmail.com>",
+  "license": "Apache-2.0",
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile",
     "dev": "npm start & npm run server ",
