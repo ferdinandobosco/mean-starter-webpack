@@ -22,3 +22,6 @@ npm run build
 npm run build --report
 ```
 
+## License
+
+See the [LICENSE](LICENSE) file for license rights and limitations (Apache 2.0).
